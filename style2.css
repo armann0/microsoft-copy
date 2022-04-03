@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+}
+.div2 {
+    height: 50px;
+    padding: 0px 70px;
+}
+
+.microsoft_logo {
+    width: 108px;
+    height: 23px;
+    float: left;
+    margin-left: 2px;
+}
+
+.ul {
+    margin-top: -47px;
+    padding: 0px 20px;
+}
+
+.items {
+    display: inline-block;
+    text-indent: 20px;
+    
+}
+
+[class*= "items"]:hover {
+    text-decoration: underline;
+}
+
+header div nav ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 5px;
+}
+.relative {
+    position: relative;
+    padding: 0px 60px;
+}
+.absolute1 {
+    position: absolute;
+    bottom: 70%;
+    margin-left: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.absolute2 {
+    position: absolute;
+    font-size: 18px;
+    bottom: 55%;
+    width: 450px;
+    margin-left: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.relative2 {
+    position: relative;
+
+}
+.absolute3 {
+    position: absolute;
+    font-size: 18px;
+    left: 75px;
+    box-sizing: content-box;
+    color: black;
+}
+
+[class*="col-"]{float: left; padding: 0px 100px;}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.65%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.container100{
+    width: 100%;
+    height: 129px;
+    margin: auto; /* to move an image we use margin*/
+    padding: 80px 50px 100px 50px;
+    text-align: center;
+
+
+}
+.container2{
+    max-width: 1380px;
+    margin-right: 100px; /* to move an image we use margin*/
+    padding: 150px 65px;
+    margin: -100px;
+}
+
+.container3 {
+    max-width: 1300px;
+    margin-top: 350px;
+}
+.container4{
+    max-width: 1400px;
+    margin-right: 100px; /* to move an image we use margin*/
+    padding: 125px 65px;
+    margin: -100px;
+}
+
+.container5 {
+    max-width: 1300px;
+    margin-top: 400px;
+
+}
+
+.follow {
+    font-size: 15px;
+    line-height: 20px;
+    padding-right: 12px;
+    margin-bottom: 4px;
+}
+
+
+.ul2 {
+    margin: -27px 0px 20px 30px;
+    padding: 0px 120px;
+}
+
+.row::before {
+    content: normal;
+    clear: both;
+    display: table;
+}
+
+/* .foot {
+    background-color: #f2f2f2;
+    margin-top: 28px;
+    min-width: 100%;
+    height: 396px;
+}
+
+.foot2 {
+    padding: 34px 60px 0px 60px;
+    color: #616161;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.foot-ul {
+    
+    padding-left: 60px;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.foot-ul2 {
+    
+    padding-left: 260px;
+    list-style-type: none;
+    font-size: 13px;
+    bottom: -50%;
+}
+
+.foot-ul-a {
+    text-decoration: none;
+    color: #616161;
+}
+
+footer ul li {
+    padding: 8px 0;
+} */
+
+[class*="column-"]{float: left; padding: 10px;}
+
+.column-1 {width: 8.33%;}
+.column-2 {width: 16.66%;}
+.column-3 {width: 25%;}
+.column-4 {width: 33.33%;}
+.column-5 {width: 41.65%;}
+.column-6 {width: 50%;}
+.column-7 {width: 58.33%;}
+.column-8 {width: 66.66%;}
+.column-9 {width: 75%;}
+.column-10 {width: 83.33%;}
+.column-11 {width: 91.66%;}
+.column-12 {width: 100%;}
+
+.container{
+    width: 100%;
+    margin: auto; /*to move an image we use margin */
+    background-color: #4e0707;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.row::before {
+    content: normal;
+    clear: both;
+    display: table;
+}
+
+.img-fluid {
+    width: 200px;
+}
+
+.txt-fluid {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.unorderlist-fluid{
+    list-style: none;
+}
+
+.list-fluid {
+    padding: 10px;
+}
+
+.headline-list {
+    margin: -10px 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+[class*="txt-fluid"]:hover {
+    text-decoration: underline;
+}
+
